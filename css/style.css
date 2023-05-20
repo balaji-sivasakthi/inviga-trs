@@ -122,7 +122,7 @@ h6,
     background: linear-gradient(135deg, #FFF8F3 0%, #FFD4BC 100%);
 }
 
-.btmsec {
+.cta-section {
     margin: 50px 30px 50px 30px;
     box-shadow: 0px 20px 25px -5px rgba(49, 69, 102, 0.15);
     border-radius: 22px;
@@ -135,8 +135,17 @@ h6,
     text-align: center !important;
 }
 
-.btmsec .letsbtn {
+.cta-section .letsbtn {
     margin: 0px !important;
+}
+
+.cta-section a{
+    width: 189px;
+    background-color: #187080 !important;
+    ;
+}
+.cta-section p {
+    font-size: 14px;
 }
 
 .blgcol {
@@ -360,6 +369,11 @@ h6,
     text-align: center;
 }
 
+.inviga-team-slider{
+    background-color: #FEF9F6 !important;
+    margin-top: 0px !important;
+}
+
 @media screen and (max-width: 650px) {
     .banbtm1 {
         margin-top: 0px !important;
@@ -424,7 +438,7 @@ h6,
 h1,
 h2,
 .font-weight-bold {
-    font-weight: 700 !important;
+    font-weight: 600 !important;
 }
 
 h3,
@@ -731,4 +745,5 @@ h6,
 @media only screen and (max-width: 600px) {
     .carousel-caption {
         height: 80vh;
+    }
 }
